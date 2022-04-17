@@ -1,0 +1,36 @@
+<meta charset="UTF-8">
+
+<script> 
+  fuction imprimir(frase){
+      document.write(frase)
+  }
+  
+  fuction saltarLinea(){
+      document.write("<br>")
+  }    
+  
+  var miEdad = 23;
+  var hermanoEdad = 29;
+  var diferenciaEdad = hermanoEdad - miEdad;
+  
+  imprimir(¨Nuestra diferencia de edad es " + diferenciaEdad + " años.");
+     
+ <script> 
+ 
+ //Aca termina mi codigo y empieza el del profe
+ 
+ <meta charset="UTF-8">
+<script>
+    function saltarLinea() {
+        document.write("<br>");
+    }
+
+    function imprimir(frase) {
+        document.write(frase);
+    }
+
+    var miEdad = 18;
+    var edadHermano = 15;
+
+    imprimir("Nuestra diferencia de edad es " + (miEdad - edadHermano));
+ </script>
